@@ -20,6 +20,9 @@ function Navbar() {
 export default Navbar;
 
 const ContainerNavbar = styled.div`
-    height: 80vh;
+    height: 65vh;
     width: 260px;
+		background-color: lightsalmon;
+	
+
 `;

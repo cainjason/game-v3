@@ -4,9 +4,10 @@ import styled from 'styled-components';
 function Footer() {
   return (
     <ContainerFooter>
-      <p>email</p>
-      <p>phone number</p>
-      <p>copyright</p>
+      <p>© 2023 Grant A.M.E. All Rights Reserved.</p>
+      <p>1906 Washington St. Boston, MA 02118</p>
+      <p>(617) 427-0670</p>
+      <p>Info.game.bos@gmail.com</p>
     </ContainerFooter>
   )
 }

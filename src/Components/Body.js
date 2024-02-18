@@ -9,8 +9,8 @@ function Body() {
         <ReactPlayer
             className='react-player'
             url= 'https://fb.watc/qgW5DFex0T/'
-            width='343%'
-            height='100%'
+						width='100%'
+						height='100%'
             controls = {true} 
             />
       </BodyInfo>
@@ -22,4 +22,8 @@ export default Body;
 
 const ContainerBody = styled.div``;
 
-const BodyInfo = styled.div``;
+const BodyInfo = styled.div`
+	height: 514px;
+	width: 1000px;		
+`;
+

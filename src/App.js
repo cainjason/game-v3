@@ -22,9 +22,10 @@ function App() {
 export default App;
 
 const ContainerBody = styled.div`
-  background-color: peachpuff;
+  background-color: maroon;
 `;
 
 const SectionOne = styled.div`
   display: flex;
+
 `;

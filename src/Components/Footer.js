@@ -20,7 +20,7 @@ const ContainerFooter = styled.div`
   height: 100px;
   width: 100%;
   flex-direction: row;
-  background-color: lightslategray;
+  background-color: maroon;
   color: white;
 `;
 
@@ -29,5 +29,15 @@ const FooterInfo = styled.div`
   justify-content: space-between;
   font-size: larger;
   font-weight: bold;
-  
+  margin-left: 10px;
+  margin-right: 10px; 
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  a:hover {
+    color: burlywood;
+  }
 `;

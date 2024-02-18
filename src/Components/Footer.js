@@ -4,10 +4,12 @@ import styled from 'styled-components';
 function Footer() {
   return (
     <ContainerFooter>
-      <p>© 2023 Grant A.M.E. All Rights Reserved.</p>
-      <p>1906 Washington St. Boston, MA 02118</p>
-      <p>(617) 427-0670</p>
-      <p>Info.game.bos@gmail.com</p>
+      <FooterInfo>
+      <p><a href='/'>© 2023 Grant A.M.E. All Rights Reserved.</a></p>
+      <p><a href='/'>1906 Washington St. Boston, MA 02118</a></p>
+      <p><a href='/'>Call Us: (617) 427-0670</a></p>
+      <p><a href='/'>Info.game.bos@gmail.com</a></p>
+      </FooterInfo>
     </ContainerFooter>
   )
 }
@@ -15,8 +17,17 @@ function Footer() {
 export default Footer;
 
 const ContainerFooter = styled.div`
-    height: 20px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+  height: 100px;
+  width: 100%;
+  flex-direction: row;
+  background-color: lightslategray;
+  color: white;
+`;
+
+const FooterInfo = styled.div`
+  display: flex;
+  justify-content: space-between;
+  font-size: larger;
+  font-weight: bold;
+  
 `;

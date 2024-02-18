@@ -5,9 +5,10 @@ function Header() {
   return (
     
     <ContainerHeader>
+      <HeaderInfo>
       <h1>GAME</h1>
       <p>Grant African Methodist Episcopal Church</p>
-
+      </HeaderInfo>
     </ContainerHeader>
     
 
@@ -17,8 +18,8 @@ function Header() {
 export default Header;
 
 const ContainerHeader = styled.div`
+    
     display: flex;
-    flex-direction: column;
     justify-content: center;
     font-size: larger;
     font-weight: bold;
@@ -27,3 +28,5 @@ const ContainerHeader = styled.div`
     color: whitesmoke;                          
 
 `;
+
+const HeaderInfo = styled.div``;

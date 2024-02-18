@@ -7,13 +7,13 @@ function Navbar() {
       <NavbarHeader>
 				<NavbarInfo>
 				<ul>
-					<li><a href='#'>Home</a></li>
-					<li><a href='#'>Calendar</a></li>
-					<li><a href='#'>Our Ministries</a></li>
-					<li><a href='#'>Helpful Infomation</a></li>
-					<li><a href='#'>Contacts</a></li>
-					<li><a href='#'>Online Giving</a></li>
-					<li><a href='#'>Our Media</a></li>
+					<li><a href='#home'>Home</a></li>
+					<li><a href='#calendar'>Calendar</a></li>
+					<li><a href='#ministries'>Our Ministries</a></li>
+					<li><a href='#infomation'>Helpful Infomation</a></li>
+					<li><a href='#contacts'>Contacts</a></li>
+					<li><a href='#giving'>Online Giving</a></li>
+					<li><a href='#media'>Our Media</a></li>
       	</ul>
 				</NavbarInfo>
 			</NavbarHeader>

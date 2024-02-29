@@ -8,7 +8,7 @@ function Body() {
       <BodyInfo>
         <ReactPlayer
             className='react-player'
-            url= 'https://fb.watc/qgW5DFex0T/'
+            url= 'https://fb.watch/qwnk1TYKj5/'
 						width='100%'
 						height='100%'
             controls = {true} 

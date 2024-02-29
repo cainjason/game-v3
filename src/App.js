@@ -23,6 +23,7 @@ export default App;
 
 const ContainerBody = styled.div`
   background-color: maroon;
+  height: 100vh;
 `;
 
 const SectionOne = styled.div`

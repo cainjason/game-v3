@@ -22,6 +22,7 @@ const ContainerFooter = styled.div`
   flex-direction: row;
   background-color: maroon;
   color: white;
+  margin-top: 50px;
 `;
 
 const FooterInfo = styled.div`

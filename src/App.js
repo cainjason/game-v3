@@ -34,6 +34,9 @@ const SectionOne = styled.div`
 
 `;
 
-const SectionTwo = styled.div``;
+const SectionTwo = styled.div`
+  height: 500px;
+  width: 500px;
+`;
 
 const Logo = styled.div``;

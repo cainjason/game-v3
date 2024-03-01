@@ -14,6 +14,9 @@ function App() {
         <Navbar />
         <Body />
       </SectionOne>
+      <SectionTwo>
+        <Logo />
+      </SectionTwo>
       <Footer />
     </ContainerBody>
   );
@@ -30,3 +33,7 @@ const SectionOne = styled.div`
   display: flex;
 
 `;
+
+const SectionTwo = styled.div``;
+
+const Logo = styled.div``;
